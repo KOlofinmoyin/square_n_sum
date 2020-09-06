@@ -13,4 +13,7 @@ require 'square_n_sum'
       expect(square_sum([])).to eq(0);
     end
 
+    it "takes [-1,-2] and returns 5" do
+      expect(square_sum([-1,-2])).to eq(5);
+    end
   end
