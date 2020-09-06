@@ -1,6 +1,4 @@
 def square_sum(numbers)
   return 0 if numbers.nil? || numbers == []
-  result = 0
-  numbers.each { |num| result += num * num }
-  result
+  numbers.inject(0) { |sum,num| sum + (num**2) }
 end
