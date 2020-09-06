@@ -16,4 +16,9 @@ require 'square_n_sum'
     it "takes [-1,-2] and returns 5" do
       expect(square_sum([-1,-2])).to eq(5);
     end
+
+
+    it "takes [-1, 0, 1] and returns 2" do
+      expect(square_sum([-1, 0, 1])).to eq(2);
+    end
   end
