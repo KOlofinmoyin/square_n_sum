@@ -8,4 +8,9 @@ require 'square_n_sum'
     it "takes [0, 3, 4, 5] and returns 50" do
       expect(square_sum([0, 3, 4, 5])).to eq(50);
     end
+
+    it "takes [] and returns 0" do
+      expect(square_sum([])).to eq(0);
+    end
+
   end
